@@ -1,5 +1,5 @@
 .page {
-  width: 1460px;
+  width: 1440px;
   margin: auto;
   font-family: "Arial", sans-serif;
   font-size: 16px;
@@ -67,7 +67,8 @@ p {
 }
 
 .header__image {
-  max-width: 635px;
+  max-width: 636px;
+  object-fit: cover;
 }
 
 .header__footer {
