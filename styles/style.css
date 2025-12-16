@@ -1,5 +1,5 @@
 .page {
-  width: 1440px;
+  width: 99.5%;
   margin: auto;
   font-family: "Arial", sans-serif;
   font-size: 16px;
@@ -164,6 +164,7 @@ p {
   margin-top: 10px;
 }
 
+/* Segunda parte - Eventos */
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -291,4 +292,104 @@ p {
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+/* Tercera parte */
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  /* Agrega estilos */
+}
+
+.step {
+  /* Agrega estilos */
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 60px 80px;
+}
+
+.footer__columns {
+  border: red solid 1px;
+  display: flex;
+}
+
+.footer__column_content_hours {
+}
+
+.footer__column_content_social {
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+  border: green solid 1px;
+}
+
+.footer__column-heading {
+  border: darkgreen solid 1px;
+}
+
+.footer__list {
+  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  border: yellow solid 1px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+}
+
+.footer__copyright {
+  margin-top: 100px;
+}
+
+.footer__column {
+  border: blue solid 1px;
 }
