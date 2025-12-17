@@ -359,9 +359,15 @@ p {
 
 .footer__column_content_hours {
   margin-right: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .footer__column_content_social {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .footer__logo {
@@ -391,6 +397,8 @@ p {
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-icon {
